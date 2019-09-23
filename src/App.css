@@ -8,6 +8,6 @@
   user-select: none;
  }
  .activeCard {
-  color: red;
-  background: pink;
+  color: rgb(25, 0, 255);
+  background: rgb(202, 67, 90);
  }
