@@ -1,4 +1,5 @@
 export default class WordCard extends
+
 Component {
 render() {
  return (

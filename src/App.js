@@ -45,7 +45,6 @@ class App extends React.Component {
     return (
       <div>
         {
-
           Array.from(this.state.chars).map((item, index) => (
             <CharacterCard
               value={item}
@@ -68,6 +67,7 @@ class App extends React.Component {
           ))
 
         }
+        
         <div>Attemp {this.state.attempt}</div>
         {
           this.state.completed && <h4>Complete</h4>

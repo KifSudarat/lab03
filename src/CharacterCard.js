@@ -1,5 +1,7 @@
 import React from 'react';
 import { format } from 'url';
+import { ImageBackground } from 'react';
+
  
 class CharacterCard extends React.Component {
  
