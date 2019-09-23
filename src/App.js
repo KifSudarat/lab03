@@ -45,6 +45,7 @@ class App extends React.Component {
     return (
       <div>
         {
+
           Array.from(this.state.chars).map((item, index) => (
             <CharacterCard
               value={item}
@@ -65,6 +66,7 @@ class App extends React.Component {
               activationHandler={this.activationHandler}
             />
           ))
+
         }
         <div>Attemp {this.state.attempt}</div>
         {
