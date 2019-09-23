@@ -3,9 +3,7 @@ import CharacterCard from './CharacterCard';
 import './App.css';
 import _ from 'lodash';
 
-
 let message = 'Hello'
-
 
 const prepareStateFromWord = (given_word) => {
 
@@ -19,7 +17,7 @@ const prepareStateFromWord = (given_word) => {
 
     chars,
 
-    attempt: 1,
+    attempt: 2,
 
     guess: [],
 
@@ -31,12 +29,9 @@ const prepareStateFromWord = (given_word) => {
 
 }
 
-
 class App extends React.Component {
 
-
   state = prepareStateFromWord(message);
-
 
   activationHandler = (c) => {
 
@@ -59,7 +54,6 @@ class App extends React.Component {
     }
 
   }
-
 
   render() {
     console.log("chars: ", this.state.chars)
@@ -123,5 +117,5 @@ class App extends React.Component {
 
 }
 
-
 export default App;
+
