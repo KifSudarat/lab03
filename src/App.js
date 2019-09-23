@@ -17,7 +17,7 @@ const prepareStateFromWord = (given_word) => {
 
     chars,
 
-    attempt: 1,
+    attempt: 2,
 
     guess: [],
 
